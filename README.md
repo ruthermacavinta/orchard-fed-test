@@ -1,5 +1,13 @@
 # Interface Development Test
 
+## Technology Used
+Hello and thank you for considering me to take this assessment. 
+* **HTML:** Clean coding structure.
+* **CSS:** BEM methodology for maintainable code.
+* **Javascript:** My daily dose.
+* **Git:** Plus pogi points.
+* **Vite:** For instant server start build.
+
 ## Design assets
 * Invision public URL: https://invis.io/N312IJ0C8GMK
 * Assets used in the build have been packaged under the `/assets` folder.
@@ -32,4 +40,3 @@ We are looking for your ability to bring life to static designs. During that pro
 * **Interface:** Semantic markup styling.
 * **Git:** Bonus points for submission on a github account showing multiple commits.
 * **Quality:** Production-grade build and precision.
-
