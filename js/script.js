@@ -9,6 +9,10 @@ const closeModalBtn2 = document.querySelector(".btn-close2");
 const closeModalBtn3 = document.querySelector(".btn-close3");
 const overlay = document.querySelector(".overlay");
 
+const btnClick1 = document.querySelector('#btn-1');
+const btnClick2 = document.querySelector('#btn-2');
+const btnClick3 = document.querySelector('#btn-3');
+
 // close modal function
 const closeModal1 = function () {
   modal1.classList.add("hidden");
@@ -61,3 +65,14 @@ const openModal3 = function () {
 openModalBtn1.addEventListener("click", openModal1);
 openModalBtn2.addEventListener("click", openModal2);
 openModalBtn3.addEventListener("click", openModal3);
+
+// onclick event listener
+btnClick1.addEventListener('click', e => {
+    console.log(`Button 1 was click!`)
+})
+btnClick2.addEventListener('click', e => {
+    console.log(`Button 2 was click!`)
+})
+btnClick3.addEventListener('click', e => {
+    console.log(`Button 3 was click!`)
+})
