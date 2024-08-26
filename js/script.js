@@ -28,6 +28,8 @@ closeModalBtn1.addEventListener("click", closeModal1);
 closeModalBtn2.addEventListener("click", closeModal2);
 closeModalBtn3.addEventListener("click", closeModal3);
 overlay.addEventListener("click", closeModal1);
+overlay.addEventListener("click", closeModal2);
+overlay.addEventListener("click", closeModal3);
 
 // close modal when the Esc key is pressed
 document.addEventListener("keydown", function (e) {
