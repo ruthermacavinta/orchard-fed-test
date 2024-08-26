@@ -52,40 +52,6 @@ body {
     align-items: center;
 }
 
-.sushi__subtitle {
-    font-size: 18px;
-    font-weight: 400;
-    font-family: var(--plus-jakarta-sans);
-
-    color: var(--primary-color);
-    opacity: 0.8;
-
-    letter-spacing: -0.01em;
-}
-
-.sushi__title {
-    font-size: 64px;
-    font-weight: 600;
-    font-family: var(--playfair-display);
-
-    color: var(--secondary-color);
-
-    margin-top: 16px;
-}
-
-.sushi__description {
-    font-size: 18px;
-    font-weight: 400;
-    font-family: var(--plus-jakarta-sans);
-
-    line-height: 36px;
-    letter-spacing: -0.01em;
-
-    color: var(--secondary-color);
-    opacity: 0.8;
-
-    margin: 32px 0px;
-}
 
 /* START: hero media queries */
 @media screen and (max-width: 1060px) {
@@ -131,3 +97,55 @@ body {
 }
 
 /* END: hero media queries */
+
+/* START: catalogue media queries */
+@media screen and (max-width: 1060px) {
+    .catalogue {
+        padding: 32px;
+    }
+    
+    .catalogue__holder {
+        flex-direction: column;
+    }
+
+    .catalogue__card {
+        text-align: center;
+        margin: auto;
+        width: 75%;
+    }
+
+    .catalogue__card-info {
+        text-align: center;
+    }
+
+    .catalogue__card-image {
+        width: 100%;
+    }
+
+    .catalogue__card-details hr {
+        width: 12%;
+        margin: auto;
+    }
+
+
+}
+
+@media screen and (max-width: 1024px) {
+    .catalogue__card-image {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .catalogue__card-details hr {
+        width: 15%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .catalogue__card-details hr {
+        width: 22%;
+    }
+}
+
+/* END: catalogue media queries */
