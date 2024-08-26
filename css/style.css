@@ -194,20 +194,88 @@ body {
 }
 
 @media screen and (max-width: 1024px) {
+    .catalogue {
+        position: relative;
+    }
+
     .catalogue__card-image {
         width: 100%;
     }
+
+    .modal.modal1 {
+        width: 60%;
+        margin: 204px;
+        left: 0;
+        top: 0%;
+    }
+    .modal.modal2 {
+        width: 60%;
+        margin: 204px;
+        left: 0;
+        top: 30%;
+    }
+    .modal.modal3 {
+        width: 60%;
+        margin: 204px;
+        left: 0;
+        top: 61%;
+    }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
+    .catalogue {
+        position: relative;
+    }
+
     .catalogue__card-details hr {
         width: 15%;
+    }
+
+    .modal.modal1 {
+        width: 80%;
+        margin: 80px;
+        left: 0;
+    }
+    .modal.modal2 {
+        width: 80%;
+        margin: 80px;
+        left: 0;
+        top: 30%;
+    }
+    .modal.modal3 {
+        width: 80%;
+        margin: 80px;
+        left: 0;
+        top: 61%;
     }
 }
 
 @media screen and (max-width: 550px) {
+    .catalogue {
+        position: relative;
+    }
+
     .catalogue__card-details hr {
         width: 22%;
+    }
+
+    .modal.modal1 {
+        width: 80%;
+        margin: 33px;
+        left: 0;
+        top: 10%;
+    }
+    .modal.modal2 {
+        width: 80%;
+        margin: 33px;
+        left: 0;
+        top: 40%;
+    }
+    .modal.modal3 {
+        width: 80%;
+        margin: 33px;
+        left: 0;
+        top: 68%;
     }
 }
 
